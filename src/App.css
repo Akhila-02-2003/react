@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Login {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.Login h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Login input {
+  width: 100%; 
+  max-width: 300px; 
+  padding: 10px;
+  margin: 10px 0; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.Login button {
+  width: 100%; 
+  max-width: 320px; 
+  padding: 10px;
+  background-color: green;
   color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.Login button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Login input:focus {
+  border-color: blue;
+  outline: none;
 }
+
+
+.SignUp {
+  max-width: 400px;
+  margin: 50px auto;
+  width:400px;
+  padding: 50px;
+  
+
+}
+
+.SignUp h1 {
+  text-align: center;
+  color: #333;
+}
+
+.SignUp input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.SignUp .btn {
+  width: 100%;
+  padding: 10px;
+  background-color:darkgreen; 
+  color: white; 
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.SignUp .btn:hover {
+  background-color: darkgreen; 
+}
+
+.SignUp a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.SignUp a:hover {
+  text-decoration: underline;
+}
+.SignUp input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+
+
+.a1 {
+    background-color: black;
+    color: white; 
+    width: 200px; 
+    height: 100vh; 
+    padding: 20px; 
+    box-shadow: 2px 0 5px lightpink ;
+    position:fixed;
+    
+  }
+  .a1 li{
+    margin: 30px;
+    margin-top: 80px;
+    font-weight: bolder;
+  }
+  
+  .a1 h1 {
+    font-size: 24px; 
+    margin-bottom: 20px;  
+    
+  }
+  
+  .a1 ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .a1 ul li {
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  .laptop-card {
+    background-color: antiquewhite;
+   
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .laptop-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  /* Layout and background styling */
+.f1 {
+ 
+  align-items: center;
+ 
+  padding: 20px;
+  height: 50px;
+ 
+ 
+ 
+}
+
+/* Image styling */
+.watch-image {
+
+  height: 100px;
+ 
+ 
+}
+
+/* Watch details text styling */
+.watch-details {
+  font-size: 16px;
+  color: #333;
+}
+
+.watch-details p {
+  margin: 10px 0;
+}
+
+.watch-details p strong {
+  color: #555;
+}
+
+  
